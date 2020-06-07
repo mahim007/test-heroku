@@ -14,6 +14,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
+@Table(name = "AppUser")
 public class User implements UserDetails {
 
     @Id
